@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    background: #373737;
+    margin-bottom: 3rem;
+    box-shadow:  0 0 1em black;
+}
+@media screen and (max-width: 480px){
+    .navbar{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+}
+.site-logo{
+    color: white;
+    font-family: 'Lobster';
+    font-size: 40px;
+    padding-left: 3rem;
+}
+@media screen and (max-width: 480px){
+    .site-logo{
+        font-family: 'Lobster';
+        font-size: 20px;
+        padding-left: 10px;
+    }
+}
+.navbar .nav-item{
+    margin-right: 5rem;
+    text-decoration: none;
+}
+
+.contact{
+    /*display: inline-block;*/
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.contact:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.side_content{
+    position: relative;
+    min-height: 100vh;
+}
+@media screen and (max-width: 480px){
+    .side_content{
+        margin:0;
+        width: 100%;
+        height: 50%;
+    }
+}
+.instruction{
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (max-width: 480px){
+    .instruction{
+       font-size: 15;
+       margin-top: 2rem;
+    }
+}
+.content{
+    padding-bottom: 10rem; 
+}
+@media screen and (max-width: 480px){
+    .content{
+      padding-bottom: 5rem;
+    }
+}
+.notes{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+    .notes{
+        display: none;
+    }
+}
+.note{
+    display: inline-block;
+    padding: 0 0.45rem 0 0.4rem;
+    font-weight: bolder;
+}
+
+.white-note{
+    color: white;
+}
+
+.black-note{
+    font-size: 12px;
+    color: black;
+}
+
+.piano{
+    display: block;
+    width: 1000px;
+    height: 400px;
+    background: #454545;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+
+}
+@media screen and (max-width: 480px){
+    .piano{
+        width: 300px;
+        height: 120px;
+    }
+}
+
+.piano_menu{
+    background: #373737;
+    width: 100%;
+    height: 30%;
+    display: block;
+    border-radius: 15px 15px 0 0;
+}
+.keyboard{
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    flex: 1;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.key{
+    display:inline-block;
+    width:75px;
+    height:220px;
+    background: white;
+}
+@media screen and (max-width: 480px){
+    .key{
+        width: 20px;
+        height: 62px;
+    }
+}
+.black{
+    background: #191919;
+    position: absolute;
+    width: 30px;
+    height: 110px;
+}
+@media screen and (max-width: 480px){
+    .black{
+        width: 12px;
+        height: 44px;
+    }
+}
+.key:hover, .key.focus{
+    background: #D3D3D3;
+}
+.black:hover, .black.focus{
+    background: black;
+}
+
+.screen{
+    display: inline-block;
+    
+    
+    margin-left: 400px;
+    margin-right: auto;
+   border: 3px solid black;
+   border-bottom-color: #191919;
+   border-top-color: #191919;
+   border-left-color: #454545;
+   border-right-color: #454545;
+}
+.select{
+    width: 100%;
+}
+.k1{
+    margin-left: -22px;
+}
+.k2{
+    margin-left: -22px;
+}
+.k3{
+    margin-left: -22px;
+}
+.k4{
+    margin-left: -22px;
+}
+.k5{
+    margin-left: -22px;
+}
+.k6{
+    margin-left: -22px;
+}
+.k7{
+    margin-left: -22px;
+}
+@media screen and (max-width: 480px){
+    .k1,.k2,.k3,.k4,.k5,.k6,.k7{
+         margin-left: -8px;
+    }
+}
+.sound-name{
+    /*display:inline-block;*/
+    /*width:75px;*/
+    /*font-size: 35px;*/
+    color: black;
+   
+}
+.black-name{
+    font-size:20px;
+   
+    color: white;
+    margin-left: 0px;
+}
+.footer{
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;         
+    background-color: #191919;
+    color: white;
+}
+ul{
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.footer-area .container h5{
+    margin: auto;
+    font-size: 40px;
+    border: 2px solid #191919;
+    border-radius: 10px;
+    
+}
+@media screen and (max-width: 480px){
+    .footer-area .container h5{
+        font-size: 20px;
+       
+        padding: 0.2rem 0.2rem;
+    }
+}
+
